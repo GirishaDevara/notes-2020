@@ -33,7 +33,7 @@ Render takes upto 6 argumnets i.e, Required arugumnets are 2 Optional arguments 
 
 
 
-<img src="Data Rendering From Views to Html in Static.png"/>
+<img src="pic1.png"/>
 
 ***Steps to implement render from views to html and html to views***
 
@@ -90,14 +90,6 @@ def show(request):
 
 ```
 
-
-
-**Result**
-----
-
-<img src="d5.JPG"/>
-
-----
 
 ## Data rendering from html to views without using forms and models
 
@@ -196,12 +188,3 @@ def register(request):
 
 ```
 
-
-**Result**
-----
-
-<img src="d10.JPG"/>
-
-**After click on submit result shown as follows**
-
-<img src="d11.JPG"/>
