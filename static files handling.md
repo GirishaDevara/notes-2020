@@ -42,7 +42,8 @@ STATICFILES_DIRS = [
 		</div>
 	</div>
 </body>
-</html>```
+</html>
+```
 
 
 ```staticeExampleCss.css```
