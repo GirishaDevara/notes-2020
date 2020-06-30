@@ -42,10 +42,12 @@ class Register(models.Model):
   
 #### Sync With database
 Now that we’ve created the model, it’s time to add it to the database. To do this we need to open Command Promnt and run these two commands:
+
     - python manage.py makemigrations
     - python manage.py migrate
 You should think of migrations as a version control system for your database schema. 
-makemigrations is responsible for packaging up your model changes into individual migration files - analogous to commits - and migrate is responsible for applying those to your database
+***makemigrations*** is responsible for packaging up your model changes into individual migration files - analogous to commits - 
+and ***migrate*** is responsible for applying those to your database
 
 *  ```migrate```, which is responsible for applying and unapplying migrations.
 * ```makemigrations```, which is responsible for creating new migrations based on the changes you have made to your models.
