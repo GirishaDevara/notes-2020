@@ -63,7 +63,9 @@ DATABASES = {
 ```
 ###  ORM(Object Relational Mapper)   
 
-**Database Connectivity was previously used to connect a database to a Java application. But it gave rise to a lot of problems and required many lines of coding to make the connectivity which was time-consuming and used to take up memory space and slow down processing time quite a lot. This crisis gave rise to ORM or Object Relational Mapping. ORM helped developers immensely by connecting object-oriented applications with databases through a fast and easy implementation.**
+Database Connectivity was previously used to connect a database to a Java application. But it gave rise to a lot of problems and required many lines of coding to make the connectivity which was time-consuming and used to take up memory space and slow down processing time quite a lot. This crisis gave rise to ORM or Object Relational Mapping. ORM helped developers immensely by connecting object-oriented applications with databases through a fast and easy implementation.
+
+***One of the most powerful features of Django is its Object-Relational Mapper (ORM), which enables you to interact with your database, like you would with SQL.***
 
 Object Relational Mapper presents a method of associating user-defined Python classes with database tables, and instances of those classes (objects) with rows in their corresponding tables. 
 
