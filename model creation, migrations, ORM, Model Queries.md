@@ -61,7 +61,10 @@ DATABASES = {
     'HOST': 'mysql_hostname',
 }
 ```
-###  ORM(Object Relational Mapper)     
+###  ORM(Object Relational Mapper)   
+
+**Database Connectivity was previously used to connect a database to a Java application. But it gave rise to a lot of problems and required many lines of coding to make the connectivity which was time-consuming and used to take up memory space and slow down processing time quite a lot. This crisis gave rise to ORM or Object Relational Mapping. ORM helped developers immensely by connecting object-oriented applications with databases through a fast and easy implementation.**
+
 Object Relational Mapper presents a method of associating user-defined Python classes with database tables, and instances of those classes (objects) with rows in their corresponding tables. 
 
 It includes a system that transparently synchronizes all changes in state between objects and their related rows, called a unit of work, as well as a system for expressing database queries in terms of the user defined classes and their defined relationships between each other.
