@@ -1,4 +1,4 @@
-## create 
+# create 
 
 
 ***models.py***
@@ -83,7 +83,7 @@ def signup(request):
     return render(request,'testing/signup.html')
 ```
 
-### for display  details
+# display
 ***urls.py***
 
 ```python
@@ -127,3 +127,16 @@ def display(request):
 </body>
 </html>
 ```
+
+# update
+
+***urls.py***
+
+```python 
+ path('edit/',views.edit, name= 'edit'),
+ ```
+
+***views.py***
+
+```python
+
