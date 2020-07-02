@@ -68,6 +68,7 @@ def signup(request):
 
 after edit vies.py for post method
 ***views.py***
+
 ```python 
 def signup(request):
     if request.method == 'POST':
@@ -90,13 +91,15 @@ def signup(request):
  path('display/',views.display, name='display'),
  ```
 ***views.py***
-```
+
+```python
 def display(request):
     data = SignUp.objects.all()
     return render(request,'testing/display.html',{'data':data})
 ```
 
 ***dispaly.html***
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -145,6 +148,7 @@ def edit(request,id):
 ```
 
 ***edit.html***
+
 ```html
                     <form method="POST">
                         {% csrf_token %}
@@ -160,8 +164,10 @@ def edit(request,id):
                         </div>
                     </form>
 ```
+
 ***views.py***
-```
+
+```python
 def edit(request,id):
     data = SignUp.objects.get(id= id)
     if request.method == 'POST':
@@ -184,9 +190,15 @@ path('delete/<int:id>', views.delete, name='delete'),
 ```
 
 ***views.py***
+
 ```python 
 def delete(request,id):
     person = SignUp.objects.get(id= id)
     person.delete()
     return redirect(display)
+```
+
+add this line for edit button in table
+```html
+<td><a class="btn btn-primary btn-block" href="{% url 'edit' id=i.id %}">edit</a></td>
 ```
