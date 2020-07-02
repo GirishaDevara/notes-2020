@@ -139,4 +139,54 @@ def display(request):
 ***views.py***
 
 ```python
+def edit(request,id):
+    data = SignUp.objects.get(id= id)
+    return render(request,'testing/edit.html',{'data':data})
+```
 
+***edit.html***
+```html
+                    <form method="POST">
+                        {% csrf_token %}
+                        <input type="text" name="name" placeholder="Name" value="{{data.name}}"><br>
+                        <input type="text" name="rolenum" placeholder="Roll number" value="{{data.roll_num}}"><br>
+                        <input type="email" name="email" placeholder="Email " value="{{data.email}}"><br>
+
+                        <input type="text" name="age" placeholder="age" value="{{data.age}}"><br>
+                        Male :<input type="radio" name="gender" value="Male"{% if data.gender == "Male" %}checked{% endif %}><br>
+                        Female :<input type="radio" name="gender" value="Female"{% if data.gender == "Female" %}checked{% endif %}><br>
+                        <div class="card-footer bg-success ">
+                        <input type="submit" name="submit" value="Update"><br>
+                        </div>
+                    </form>
+```
+***views.py***
+```
+def edit(request,id):
+    data = SignUp.objects.get(id= id)
+    if request.method == 'POST':
+        data.name = request.POST.get('name')
+        data.roll_num = request.POST.get('rollnum')
+        data.email = request.POST.get('email')
+        data.age = request.POST.get('age')
+        data.gender = request.POST.get('gender')
+        data.save()
+        return redirect(display)
+    return render(request,'testing/edit.html',{'data':data})
+```
+
+# Delete
+
+***urls.py***
+
+```python
+path('delete/<int:id>', views.delete, name='delete'),
+```
+
+***views.py***
+```python 
+def delete(request,id):
+    person = SignUp.objects.get(id= id)
+    person.delete()
+    return redirect(display)
+```
