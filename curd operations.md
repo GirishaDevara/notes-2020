@@ -202,3 +202,16 @@ add this line for edit button in table
 ```html
 <td><a class="btn btn-primary btn-block" href="{% url 'edit' id=i.id %}">edit</a></td>
 ```
+
+# messages 
+
+```html
+{% for message in messages %}
+<div class="alert alert-{{message.tags}} alert-dismissible">
+<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+<strong>{{ message }}</strong>
+</div>
+
+
+{% endfor %}
+```
