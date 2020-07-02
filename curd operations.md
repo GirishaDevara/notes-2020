@@ -83,7 +83,7 @@ def signup(request):
     return render(request,'testing/signup.html')
 ```
 
-# display
+# Read
 ***urls.py***
 
 ```python
