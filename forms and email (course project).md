@@ -34,6 +34,7 @@ urlpatterns = [
 ]
 ```
 
+
 ***views.py***
 
 ```python
@@ -164,3 +165,63 @@ class FacultyRegisterForm(forms.ModelForm):
 
  ```
 
+# Email sending
+
+***settings.py***
+```python
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'gireesha.d@apssdc.in'
+EMAIL_HOST_PASSWORD = 'satya147'
+```
+
+### Form.cleaned_data
+Each field in a Form class is responsible not only for validating data, but also for “cleaning” it – normalizing it to a consistent format. This is a nice feature, because it allows data for a particular field to be input in a variety of ways, always resulting in consistent output.
+### form.data
+***views.py***
+```python 
+from django.shortcuts import render
+from django.http import HttpResponse
+from .forms import StudentRegisterForm, FacultyRegisterForm
+from .models import StudentRegister, FacultyRegister
+from django.core.mail import EmailMessage
+from course import settings
+
+
+def student_register(request):
+    form = StudentRegisterForm(request.POST)
+    # if request.method == 'POST':
+    if form.is_valid():
+        student = StudentRegister(firstName=request.POST.get('firstName'), lastName=request.POST.get('lastName'),
+                                  emailId=request.POST.get('emailId'), phoneNo=request.POST.get('phoneNo'),
+                                  age=request.POST.get('age'), gender=request.POST.get('gender'),
+                                  date_of_birth=request.POST.get('date_of_birth'))
+        student.save()
+        name = form.data['firstName']
+        sub = 'registration'
+        body = 'Hey ' + name.title() + ' Congratulations your certificate is ready!!'
+        receiver = form.data['emailId']
+        sender = settings.EMAIL_HOST_USER
+        email_mgs = EmailMessage(sub, body, sender, [receiver])
+        # file attaching
+        email_mgs.send()
+
+        return HttpResponse('Student added')
+    return render(request, 'user/student_registration.html', {'form': form})
+
+
+def faculty_register(request):
+    form = FacultyRegisterForm(request.POST)
+    if request.method == 'POST':
+        if form.is_valid():
+            form.save()
+            name = form.data['firstName']
+            sub = 'registration'
+            body = 'Hey ' + name.title() + ' Congratulations your certificate is ready!!'
+            receiver = form.data['emailId']
+            sender = settings.EMAIL_HOST_USER
+            email_mgs = EmailMessage(sub, body, sender, [receiver])
+            return HttpResponse('faculty_register done')
+    return render(request, 'user/faculty_register.html', {'form':form})
+```
