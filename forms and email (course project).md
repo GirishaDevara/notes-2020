@@ -173,7 +173,7 @@ EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'gireesha.d@apssdc.in'
-EMAIL_HOST_PASSWORD = 'satya147'
+EMAIL_HOST_PASSWORD = '*****'
 ```
 
 ### Form.cleaned_data
