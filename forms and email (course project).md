@@ -65,7 +65,20 @@ def faculty_register(request):
             form.save()
             return HttpResponse('faculty_register done')
     return render(request, 'user/faculty_register.html', {'form':form})
+    
+```
 
+```python
+def edit(request, num):
+    user = Userregister.objects.get(id=num)
+    if request.method == 'POST':
+        form = UserRegisterForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return HttpResponse('Edit success !! ')
+        return HttpResponse('form data is not a valid data!!')
+    data = UserRegisterForm(instance=user)
+    return render(request, "edit.html", {'data':data})
 ```
 
 
