@@ -2,7 +2,7 @@
 | Course Content:| hours |
 |-------|-------|
 | 1. [Introduction to Python](https://github.com/GirishaDevara/notes-2020/blob/master/django/Introduction%20to%20Python.md) <ul><li>Object-Oriented Programming(Classes,Objects)</li><li>Constructors</li><li>Inheritance</li><li>Python Packages and modules using oop's.</li></ul>| 3hrs|	 
-| 2. Django: <ul><li>Introduction to Django</li><li>MVC, MVT,Architecture of Django</li><li>Django Installation</li></ul>| 1:30 min |
+| 2. [Django:](https://github.com/GirishaDevara/notes-2020/blob/master/django/Django-introduction/README.md) <ul><li>Introduction to Django</li><li>MVC, MVT,Architecture of Django</li><li>Django Installation</li></ul>| 1:30 min |
 | 3. Project Creation, APP creation and use of admin app | 45 min |
 | 4. URL mapping(creation),Dynamic URL mapping,views | 3hrs |
 | 5. Interface between controller(urls.py & views.py) files| 1hr |
