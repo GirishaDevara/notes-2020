@@ -14,7 +14,7 @@
 #### What is a web Framework?
  * A web framework or web application framework is a software framework that is designed to support the development of web applications including web services, web resources, and web APIs. Web frameworks provide a standard way to build and deploy web applications.
 
-## Django Introduction :
+## Django Introduction
 
 #### Why django Framework?
  * Django is a Python web framework
@@ -43,7 +43,7 @@
   * Django is versatile in nature which allows it to build applications for different-different domains.
   
 
-## MVT Architecture of Django  :
+## MVT Architecture of Django
 
 * Every Web applications follows architectures
   * MVC (Model View Controller)
@@ -67,7 +67,7 @@
   
 * Here, a user requests for a resource to the Django, Django works as a controller and check to the available resource in URL.If URL maps, a view is called that interact with model and template, it renders a template.Django responds back to the user and sends a template as a response.
 
-## **Django Installation :**
+## Django Installation
   * **download python from website based on your system properties 64/32.** [Download Link](https://www.python.org/downloads/windows/)**
   	* Prefer to python version is 3.7.6
 	* if we use below 3.4.3 version we need to give manual path for python and scripts,otherwise pip does'nt work.
