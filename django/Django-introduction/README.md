@@ -1,6 +1,9 @@
-# Django_myDocumentation   
-
-
+# Django Introduction 
+## Contents
+1. [Introduction to Django](#Django-Introduction)
+2. [MVC, MVT,Architecture of Django]
+3. [Django Installation]
+****************************
 * **Python web Frameworks :**
   * Django
   * Flask
