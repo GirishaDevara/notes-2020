@@ -1,8 +1,8 @@
 # Django Introduction 
 ## Contents
 1. [Introduction to Django](#Django-Introduction)
-2. [MVC, MVT,Architecture of Django]
-3. [Django Installation]
+2. [MVC, MVT,Architecture of Django](#MVT-Architecture-of-Django)
+3. [Django Installation](#Django-Installation)
 ****************************
 * **Python web Frameworks :**
   * Django
@@ -11,16 +11,16 @@
   * Bottle
   * cherrypy
   * etc.....
-### What is a web Framework?
+#### What is a web Framework?
  * A web framework or web application framework is a software framework that is designed to support the development of web applications including web services, web resources, and web APIs. Web frameworks provide a standard way to build and deploy web applications.
 
 ## Django Introduction :
 
-### Why django Framework?
+#### Why django Framework?
  * Django is a Python web framework
  * A Framework provides a structure and common methods to make the life of a web application developer much easier for building    flexible, scalable and maintainable web applications.
 
-### What is Django ?
+#### What is Django ?
 
 * A Python web framework is a code library that provide tools and libraties to simplify common web development operations.
 * It is based on MVT (Model View Template) design pattern.
@@ -29,7 +29,7 @@
 * Django has a open-source collection of libraries for building afully functioning web application.
 * It takes less time to build application after collecting client requirement.
 
-### Features of Django :
+#### Features of Django :
 
  * **very fast  :**
    * It works very fast.
@@ -43,7 +43,7 @@
   * Django is versatile in nature which allows it to build applications for different-different domains.
   
 
-### MVT Architecture of Django  :
+## MVT Architecture of Django  :
 
 * Every Web applications follows architectures
   * MVC (Model View Controller)
@@ -51,7 +51,7 @@
   * etc..
 * Django is a MVT pattern.
 * MVC is slightly different from MVT as Django itself takes care of the Controller part.
-<img src='https://raw.githubusercontent.com/SatheeshMatampalli/Django_myDocumentation/master/mvt-mvc.PNG' alt='mvc' />
+<img src='https://github.com/GirishaDevara/notes-2020/blob/master/django/Django-introduction/mvt-mvc.PNG' alt='mvc' />
 
 
 * MVT is a software Design patern
@@ -63,7 +63,7 @@
 * **View  :**
   * The View is used to execute the business logic and interact with a model to carry data and renders a template.
 
-<img src='https://raw.githubusercontent.com/SatheeshMatampalli/Django_myDocumentation/master/mvt.png' alt='mvt' />
+<img src='https://github.com/GirishaDevara/notes-2020/blob/master/django/Django-introduction/mvt.png' alt='mvt' />
   
 * Here, a user requests for a resource to the Django, Django works as a controller and check to the available resource in URL.If URL maps, a view is called that interact with model and template, it renders a template.Django responds back to the user and sends a template as a response.
 
@@ -74,13 +74,13 @@
   * **Download sublimetext or any other editor tools for editing purpose.**.[Download Link](https://www.sublimetext.com/3)
   * ceck wheather 'pip' is working or not in the 'cmd'
   
-  <img src='https://raw.githubusercontent.com/SatheeshMatampalli/Django_myDocumentation/master/pip.PNG' alt='pip' />
+  <img src='https://github.com/GirishaDevara/notes-2020/blob/master/django/Django-introduction/pip.PNG' alt='pip' />
   
   * install django # # (latest Version 3.0) wait for installation
   * if you want perticular version then try `pip install Django==3.0.1"` or 
   * By Default version try `pip install django`
   
-  <img src='https://raw.githubusercontent.com/SatheeshMatampalli/Django_myDocumentation/master/django.PNG' alt='django' />
+  <img src='https://github.com/GirishaDevara/notes-2020/blob/master/django/Django-introduction/django.PNG' alt='django' />
   
   * After installing to check the version of Django Framework.
     ```
@@ -90,41 +90,41 @@
        >>>import django
        >>>django.get_version()    or    django.VERSION
           '1.11'                   (1,11,0, 'final',1)
-<img src='https://raw.githubusercontent.com/SatheeshMatampalli/Django_myDocumentation/master/dversion.PNG' alt='dvers' />
+<img src='https://github.com/GirishaDevara/notes-2020/blob/master/django/Django-introduction/dversion.PNG' alt='dvers' />
 	  
 	  
 ## **Project Creation**
 * Now, to create a Project in spcefied folder where to do and now open cmd in same path :
 	```
 			   path		                   creating project
-	    D:\Satheesh\MyPractice>django-admin startproject College(projectname)
-	    D:\Satheesh\MyPractice>cd College
-	    D:\Satheesh\MyPractice\College
+	    D:\~~~Girisha~~~\MyPractice>django-admin startproject College(projectname)
+	    D:\~~~Girisha~~~\MyPractice>cd College
+	    D:\~~~Girisha~~~\MyPractice\College
 	    
 	    
-<img src='https://raw.githubusercontent.com/SatheeshMatampalli/Django_myDocumentation/master/project.PNG' alt='project' />
+<img src='https://github.com/GirishaDevara/notes-2020/blob/master/django/Django-introduction/project.PNG' alt='project' />
 	    
-<img src='https://raw.githubusercontent.com/SatheeshMatampalli/Django_myDocumentation/master/folder11.PNG' alt='folder1' />	    
+<img src='https://github.com/GirishaDevara/notes-2020/blob/master/django/Django-introduction/folder11.PNG' alt='folder1' />	    
 	    
 * Present we are in our Django Project(College) path.
 * Check in browser wheather its working or not
   	```
-	    D:\Satheesh\MyPractice\College>python manage.py runserver
+	    D:\~~~Girisha~~~\MyPractice\College>python manage.py runserver
 	    localhost:8000/
 	    it is localhost address --> http://127.0.0.1:8000/
 	    it worked..!
 	    
-<img src='https://raw.githubusercontent.com/SatheeshMatampalli/Django_myDocumentation/master/view.PNG' alt='view' />
+<img src='https://github.com/GirishaDevara/notes-2020/blob/master/django/Django-introduction/view.PNG' alt='view' />
   
 ## **App Creation in Project**
 * Create a new App in Project
 	```
-	D:\Satheesh\MyPractice\College>python manage.py startapp appname(Students)
-	D:\Satheesh\MyPractice\College>python manage.py runserver
+	D:\~~~Girisha~~~\MyPractice\College>python manage.py startapp appname(Students)
+	D:\~~~Girisha~~~\MyPractice\College>python manage.py runserver
 	localhost:8000/
 	it is localhost address --> http://127.0.0.1:8000/
-<img src='https://raw.githubusercontent.com/SatheeshMatampalli/Django_myDocumentation/master/app.PNG' alt='app' />	
-<img src='https://raw.githubusercontent.com/SatheeshMatampalli/Django_myDocumentation/master/folder11.PNG' alt='folder11' />
+<img src='https://github.com/GirishaDevara/notes-2020/blob/master/django/Django-introduction/app.PNG' alt='app' />	
+<img src='https://github.com/GirishaDevara/notes-2020/blob/master/django/Django-introduction/folder11.PNG' alt='folder11' />
 		
 ## **urls.py :**
 * we have defaultly urls.py in  our created project(College) but we dont have urls.py in our own app so we should create new file with name urls.py in our own App(Students).
@@ -172,7 +172,7 @@
 * check in browser. localhost:8000/Students/index
 
 
-	<img src='https://raw.githubusercontent.com/SatheeshMatampalli/Django_myDocumentation/master/output.PNG' width="50%" height="30%" alt='output' />
+	<img src='https://github.com/GirishaDevara/notes-2020/blob/master/django/Django-introduction/output.PNG' width="50%" height="30%" alt='output' />
 
 * In anothe rway to represent url is without creating urls.py file in app Students add path in project urls.py file and import the Students app views in project urls.py file follow like this...
 	```
@@ -187,7 +187,7 @@
 
 * check in browser. localhost:8000/index
 
-<img src='https://raw.githubusercontent.com/SatheeshMatampalli/Django_myDocumentation/master/output.PNG' width="50%" height="30%" alt='output' />
+<img src='https://github.com/GirishaDevara/notes-2020/blob/master/django/Django-introduction/output.PNG' width="50%" height="30%" alt='output' />
 
 
 * **You will get Hello World message**
