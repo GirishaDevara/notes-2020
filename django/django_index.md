@@ -7,9 +7,9 @@
 | 4. [URL mapping(creation),Dynamic URL mapping,views](https://github.com/GirishaDevara/notes-2020/blob/master/django/URL%20mapping(creation)%2CDynamic%20URL%20mapping%2Cviews.md) | 3hrs |
 | 5. Interface between controller(urls.py & views.py) files| 1hr |
 | 6. Http Request and Responses.| 1hr |
-| 7. Django Templates | 1hr | 
+| 7. [Django Templates](https://github.com/GAlekhya123/documentation/blob/master/Django_templates.md)  | 1hr | 
 | 8. Providing an interface between controller and templates | 2hrs |
-| 9. Static file handling | 1hr |
+| 9. [Static file handling](https://github.com/GAlekhya123/documentation/blob/master/Static_File_Handling.md) | 1hr |
 | 10. Data rendering from HTML to views and then views to HTML with example.| 2hrs | 
 | 11. Model creation | 1hrs |
 | 12. Migrations, ORM | 1hr |
