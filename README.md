@@ -5,3 +5,4 @@
 ### - [Create model creation, migrations, ORM, Model Queries](https://github.com/GirishaDevara/notes-2020/blob/master/model%20creation%2C%20migrations%2C%20ORM%2C%20Model%20Queries.md)
 ### - [Superuser and Role of superuser](https://github.com/GirishaDevara/notes-2020/blob/master/Superuser%20and%20Role%20of%20superuser.md)
 ### - [curd operations](https://github.com/GirishaDevara/notes-2020/blob/master/crud%20operations.md)
+### - [OOP's](https://github.com/GirishaDevara/crrcoe/blob/master/oop%2Cand%20file%20handling/oop.ipynb)
