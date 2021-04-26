@@ -6,3 +6,6 @@
 ### - [Superuser and Role of superuser](https://github.com/GirishaDevara/notes-2020/blob/master/Superuser%20and%20Role%20of%20superuser.md)
 ### - [curd operations](https://github.com/GirishaDevara/notes-2020/blob/master/crud%20operations.md)
 ### - [OOP's](https://github.com/GirishaDevara/crrcoe/blob/master/oop%2Cand%20file%20handling/oop.ipynb)
+
+### - [numpy](https://sites.google.com/view/apssdc-crrcoe-mstp-aug-2019/worklog/level-3/9-12-2019?authuser=0)
+### - [pandas](https://sites.google.com/view/apssdc-crrcoe-mstp-aug-2019/worklog/level-3/10-12-2019?authuser=0)
