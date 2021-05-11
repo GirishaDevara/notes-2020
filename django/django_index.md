@@ -10,7 +10,7 @@
 | 7. [Django Templates](https://github.com/GAlekhya123/documentation/blob/master/Django_templates.md)  | 1hr | 
 | 8. Providing an interface between controller and templates | 2hrs |
 | 9. [Static file handling](https://github.com/GAlekhya123/documentation/blob/master/Static_File_Handling.md) | 1hr |
-| 10. Data rendering from HTML to views and then views to HTML with example.| 2hrs | 
+| 10. [Data rendering from HTML to views and then views to HTML with example](https://github.com/GirishaDevara/Django-Documentation/blob/master/Render.md).| 2hrs | 
 | 11. [Model creation](https://github.com/GirishaDevara/crrcoe/blob/master/oop%2Cand%20file%20handling/oop.ipynb) | 1hrs |
 | 12. [Migrations, ORM](https://github.com/GirishaDevara/notes-2020/blob/master/model%20creation%2C%20migrations%2C%20ORM%2C%20Model%20Queries.md#sync-with-database) | 1hr |
 | 13. [Model Queries(Django shell)](https://github.com/GirishaDevara/notes-2020/blob/master/model%20creation%2C%20migrations%2C%20ORM%2C%20Model%20Queries.md#model-queries-using-django-shell) | 2hrs |
