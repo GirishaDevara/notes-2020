@@ -20,7 +20,7 @@
 | 17. [Form Validations](https://github.com/GirishaDevara/notes-2020/blob/master/forms%20and%20email%20(course%20project).md) | 1hr |
 | 18. Database Connectivity and Database Migrations with MYSQL | 1hr |
 | 19. [Mail Sending](https://github.com/GirishaDevara/notes-2020/blob/master/forms%20and%20email%20(course%20project).md#email-sending) | 1hr |
-| 20. File Uploading | 1hr |
+| 20. File Uploading [docs](https://github.com/GirishaDevara/notes-2020/blob/master/django/Django%20Documentation%20File%20Uploading%20(1).pdf) | 1hr |
 | 21. [User Registration & User Authentication](https://github.com/boppanaravisastry/UserRegisterandAuthentication) | 2hrs |
 | 22. Templates Blocks | 1hr |
 | 23. User Profile Creation | 2hrs |
