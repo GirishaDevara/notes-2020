@@ -71,7 +71,7 @@
 
 * **You will get Hello World message**
 
-## Dynamic URL mapping
+## Dynamic URL mapping and HTTP Responses 
 
 ### `for string:`
 
