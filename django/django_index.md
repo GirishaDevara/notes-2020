@@ -1,7 +1,7 @@
 # Django
 | Course Content:| hours |
 |-------|-------|
-| 1. [Introduction to Python](https://github.com/GirishaDevara/notes-2020/blob/master/django/Introduction%20to%20Python.md) <ul><li>Object-Oriented Programming(Classes,Objects)</li><li>Constructors</li><li>Inheritance</li><li>Python Packages and modules using oop's.</li></ul>| 3hrs|	 
+| 1. [Introduction to Python](https://github.com/GirishaDevara/notes-2020/blob/master/django/Introduction%20to%20Python.md) <ul><li>[Object-Oriented Programming(Classes,Objects)](https://github.com/GirishaDevara/crrcoe/blob/master/oop%2Cand%20file%20handling/oop.ipynb)</li><li>Constructors</li><li>Inheritance</li><li>Python Packages and modules using oop's.</li></ul>| 3hrs|	 
 | 2. [Django:](https://github.com/GirishaDevara/notes-2020/blob/master/django/Django-introduction/README.md) <ul><li>Introduction to Django</li><li>MVC, MVT,Architecture of Django</li><li>Django Installation</li></ul>| 1:30 min |
 | 3. [Project Creation, APP creation and use of admin app](https://github.com/GirishaDevara/notes-2020/blob/master/django/Project%20Creation%2C%20APP%20creation%20and%20use%20of%20admin%20app.md) | 45 min |
 | 4. [URL mapping(creation),Dynamic URL mapping,views](https://github.com/GirishaDevara/notes-2020/blob/master/django/URL%20mapping(creation)%2CDynamic%20URL%20mapping%2Cviews.md) | 3hrs |
@@ -11,7 +11,7 @@
 | 8. Providing an interface between controller and templates | 2hrs |
 | 9. [Static file handling](https://github.com/GAlekhya123/documentation/blob/master/Static_File_Handling.md) | 1hr |
 | 10. [Data rendering from HTML to views and then views to HTML with example](https://github.com/GirishaDevara/Django-Documentation/blob/master/Render.md).| 2hrs | 
-| 11. [Model creation](https://github.com/GirishaDevara/crrcoe/blob/master/oop%2Cand%20file%20handling/oop.ipynb) | 1hrs |
+| 11. [Model creation](https://github.com/GirishaDevara/notes-2020/blob/master/model%20creation%2C%20migrations%2C%20ORM%2C%20Model%20Queries.md#model-creation-migrations-orm-model-queries) | 1hrs |
 | 12. [Migrations, ORM](https://github.com/GirishaDevara/notes-2020/blob/master/model%20creation%2C%20migrations%2C%20ORM%2C%20Model%20Queries.md#sync-with-database) | 1hr |
 | 13. [Model Queries(Django shell)](https://github.com/GirishaDevara/notes-2020/blob/master/model%20creation%2C%20migrations%2C%20ORM%2C%20Model%20Queries.md#model-queries-using-django-shell) | 2hrs |
 | 14. [Superuser Creation(admin part)](https://github.com/GirishaDevara/notes-2020/blob/master/Superuser%20and%20Role%20of%20superuser.md)| 1hr |
