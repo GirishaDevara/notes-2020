@@ -13,7 +13,7 @@
 | 10. [Data rendering from HTML to views and then views to HTML with example](https://github.com/GirishaDevara/Django-Documentation/blob/master/Render.md).| 2hrs | 
 | 11. [Model creation](https://github.com/GirishaDevara/notes-2020/blob/master/model%20creation%2C%20migrations%2C%20ORM%2C%20Model%20Queries.md#model-creation-migrations-orm-model-queries) | 1hrs |
 | 12. [Migrations, ORM](https://github.com/GirishaDevara/notes-2020/blob/master/model%20creation%2C%20migrations%2C%20ORM%2C%20Model%20Queries.md#sync-with-database) | 1hr |
-| 13. [Model Queries(Django shell)](https://github.com/GirishaDevara/notes-2020/blob/master/model%20creation%2C%20migrations%2C%20ORM%2C%20Model%20Queries.md#model-queries-using-django-shell) | 2hrs |
+| 13. [Model Queries(Django shell)](https://github.com/GirishaDevara/notes-2020/blob/master/django/Django%20Chapter%204%20ORM%20shell.pdf) | 2hrs |
 | 14. [Superuser Creation(admin part)](https://github.com/GirishaDevara/notes-2020/blob/master/Superuser%20and%20Role%20of%20superuser.md)| 1hr |
 | 15. Roles of the superuser. | 1hr |
 | 16. [Crud operations, Messages generation](https://github.com/GirishaDevara/notes-2020/blob/master/crud%20operations.md) | 5hrs |
