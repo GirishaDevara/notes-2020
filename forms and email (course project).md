@@ -188,7 +188,8 @@ EMAIL_PORT = 587
 EMAIL_HOST_USER = 'gireesha.d@apssdc.in'
 EMAIL_HOST_PASSWORD = '*****'
 ```
-
+## note
+- To send a mail we need to turn On the less securty open of our gmail account.
 ### Form.cleaned_data
 Each field in a Form class is responsible not only for validating data, but also for “cleaning” it – normalizing it to a consistent format. This is a nice feature, because it allows data for a particular field to be input in a variety of ways, always resulting in consistent output.
 ### form.data
